@@ -1,14 +1,26 @@
 import './style.css'
 import {colors} from './colors'
+import { registerSW } from "virtual:pwa-register"
+import Toastify from 'toastify-js'
 
 if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function() {
-    navigator.serviceWorker
-      .register("/serviceWorker.js")
-      .then(res => console.log("service worker registered"))
-      .catch(err => console.log("service worker not registered", err))
-  })
+  // && !/localhost/.test(window.location) && !/lvh.me/.test(window.location)) {
+  const updateSW = registerSW({
+    onNeedRefresh() {
+      Toastify({
+        text: `<h4 style='display: inline'>An update is available!</h4>
+               <br><br>
+               <a class='do-sw-update'>Click to update and reload</a>  `,
+        escapeMarkup: false,
+        gravity: "bottom",
+        onClick() {
+          updateSW(true);
+        }
+      }).showToast();
+    }
+  });
 }
+
 
 const createColorPallet = () => {
   colors.forEach((color) => {

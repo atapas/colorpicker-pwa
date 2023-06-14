@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [  
   VitePWA({  
       registerType: 'prompt',  
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],  
+      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg', 'manifest.webmanifest'],  
       manifest: {  
         name: 'Color Picker',  
         short_name: 'ColorPicker',  
