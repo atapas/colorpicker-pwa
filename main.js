@@ -4,7 +4,14 @@ import { registerSW } from 'virtual:pwa-register'
 
 
 if ("serviceWorker" in navigator) {
-  registerSW();
+  const updateSW = registerSW({
+    onNeedRefresh() {
+      const isUpdate = window.confirm('New Update Available. Click OK to update');
+      if (isUpdate) {
+        updateSW(true);
+      }
+    }
+  });
 }
 
 const createColorPallet = () => {
