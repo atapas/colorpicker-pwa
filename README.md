@@ -3,7 +3,7 @@ A project to demonstrate Progressive Web APP(PWA) using Vite.
 
 ## How to run
 - Clone or Fork the repo
-- Install Dependencies using `yarn isntall`
+- Install Dependencies using `yarn install`
 - Run the app locally using `yarn dev`
 - To see the PWA works,
   - Build the app using `yarn build`
@@ -11,7 +11,7 @@ A project to demonstrate Progressive Web APP(PWA) using Vite.
 ## Deployed on Netlify
 [![Netlify Status](https://api.netlify.com/api/v1/badges/30229a22-940e-4b39-8968-d4da9d29144f/deploy-status)](https://app.netlify.com/sites/pwa-colorpicker/deploys)
 
-I've deployed the app on Netlify which you can access publicly and install.
+I've deployed the app on Netlify, which you can access publicly and install.
 
 Check it out: https://pwa-colorpicker.netlify.app/
 
@@ -20,7 +20,7 @@ Check it out: https://pwa-colorpicker.netlify.app/
 
 Feel free to contribute by opening an issue if there's any bug in this application. You are also welcome to add features to it like:
 
-- Make the update alert better. Right now I use browser's window alert.
-- Build a better caching startegy. Right now, it uses `Cache Only` strategy. 
-- You can use faker to generate the data and cache. The faker code is present already.
-- Whatever you think can make this app helpsful and useful for people learning PWA.
+- Make the update alert better. Right now, I use the browser's window alert.
+- Build a better caching strategy. Right now, it uses the `Cache Only` strategy. 
+- You can use Faker to generate the data and cache. The faker code is present already.
+- Whatever you think can make this app helpful and useful for people learning PWA.
