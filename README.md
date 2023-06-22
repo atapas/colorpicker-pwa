@@ -20,7 +20,7 @@ Check it out: https://pwa-colorpicker.netlify.app/
 
 Feel free to contribute by opening an issue if there's any bug in this application. You are also welcome to add features to it like:
 
-- Make the update alert better. Right now I use browser windo alert.
+- Make the update alert better. Right now I use browser's window alert.
 - Build a better caching startegy. Right now, it uses `Cache Only` strategy. 
 - You can use faker to generate the data and cache. The faker code is present already.
 - Whatever you think can make this app helpsful and useful for people learning PWA.
