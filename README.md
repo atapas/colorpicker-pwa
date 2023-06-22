@@ -8,6 +8,11 @@ A project to demonstrate Progressive Web APP(PWA) using Vite.
 - To see the PWA works,
   - Build the app using `yarn build`
   - Start the preview using `yarn preview`
+ 
+## Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
+
+[![Thanks to all stargazers](https://git-lister.onrender.com/api/stars/atapas/colorpicker-pwa?limit=15)](https://github.com/atapas/colorpicker-pwa/stargazers)
+
 ## Deployed on Netlify
 [![Netlify Status](https://api.netlify.com/api/v1/badges/30229a22-940e-4b39-8968-d4da9d29144f/deploy-status)](https://app.netlify.com/sites/pwa-colorpicker/deploys)
 
